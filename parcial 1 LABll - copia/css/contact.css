@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+body {
+  font-family: "Ubuntu";
+}
+
+* {
+  font-family: Verdana;
+  color: rgb(71, 71, 71);
+  font-size: small;
+  box-sizing: border-box;
+}
+
+.contenedor-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  margin: 20px 30%;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.campo input,
+.campo textarea {
+  width: 100%;
+  border: solid #ccc;
+  border-radius: 4px;
+  margin: 8px 0px;
+  padding: 12px 20px;
+  resize: none;
+}
+
+.enviar {
+  background-color: rgb(160, 64, 0);
+  width: 100%;
+  color: white;
+  padding: 25px;
+}
+
+.enviar:hover,
+.enviar:active {
+  background-color: rgb(220, 118, 51);
+}
